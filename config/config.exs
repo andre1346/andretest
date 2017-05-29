@@ -9,6 +9,7 @@ use Mix.Config
 config :andretest,
   ecto_repos: [Andretest.Repo]
 
+
 # Configures the endpoint
 config :andretest, Andretest.Web.Endpoint,
   url: [host: "localhost"],
